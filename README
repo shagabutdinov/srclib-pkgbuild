@@ -1,16 +1,21 @@
-# PKGBUILD for srclib tool
+PKGBUILD for srclib tool
+------------------------
 
 Installation file for srclib tool for arch linux.
 
-## Install
+Install with yaourt
+===================
 
 ```
-yaourt -S srclib
+  yaourt -S srclib
+```
 
-# or
+Install manually
+================
 
-git clone git://github.com/shagabutdinov/srclib-pkgbuild
-cd srclib-pkgbuild
-makepkg
-pacman -U *.xz
+```
+  git clone git@github.com:shagabutdinov/srclib-pkgbuild.git
+  cd srclib-pkgbuild
+  makepkg
+  pacman -U *.xz
 ```
